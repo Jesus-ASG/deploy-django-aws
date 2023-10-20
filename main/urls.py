@@ -8,5 +8,6 @@ from django.contrib.staticfiles.urls import static
 urlpatterns = [
     # General views
     path('', views.index, name='index'),
+    path('test1', views.test1, name='test1'),
 
 ] 
